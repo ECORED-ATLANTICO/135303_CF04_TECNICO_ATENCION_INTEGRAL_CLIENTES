@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
-    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
+    Name: 'Gestión de requerimientos e indicadores de gestión',
+    Description:
+      'La acción del servicio en la atención al cliente está demarcada por diferentes acciones del colaborador o empleado encargado de esta actividad, de allí nace la importancia de que las organizaciones realicen un óptimo proceso de formación continua que brinde las herramientas necesarias y los conocimientos pertinentes en temas como la normatividad vigente, sistemas de calidad e indicadores de gestión.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
       {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
     ],
   },
@@ -31,13 +36,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Normativa y requerimientos en atención al cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Clasificación y trazabilidad de requerimientos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Notificación de recepción',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Trámite a requerimientos',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,26 +60,43 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Sistema de calidad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Características',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Protocolo del sistema de calidad',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Indicadores de gestión',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
-        titulo: 'Tema 4',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        numero: '5',
-        titulo: 'Tema 5',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Interpretación de los KPI',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Aplicabilidad de los KPI',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Reporte de los KPI',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -85,6 +117,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -93,7 +130,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/135333_CF04_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -107,16 +144,76 @@ export default {
       },
     ],
   },
+  complementario: [
+    {
+      tema: 'Protección de datos personales',
+      referencia:
+        'Escuela de Privacidad. (2020). Legislación en protección de datos en Colombia. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=bvAH9ppBbbE',
+    },
+    {
+      tema: 'Protección de datos personales',
+      referencia:
+        'Ministerio de Industria y Comercio. (2013). Decreto 1377 de 2013. ',
+      tipo: 'Documento',
+      descarga: '/downloads/DECRETO_1377_2013.pdf',
+    },
+    {
+      tema: 'Protección de datos personales',
+      referencia:
+        'Superintendencia de Industria y Comercio. (2021). Sobre la protección de datos personales. ',
+      tipo: 'Artículo',
+      link: 'https://www.sic.gov.co/sobre-la-proteccion-de-datos-personales',
+    },
+  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Evaluación de desempeño',
+      significado:
+        'instrumento de medición del desempeño laboral y/o profesional de una persona, respecto a las funciones y responsabilidades a su cargo.',
+    },
+    {
+      termino: 'Indicador de gestión',
+      significado:
+        'expresión cuantitativa del comportamiento y desempeño de un proceso, cuya magnitud, al ser comparada con algún nivel de referencia, puede estar señalando una desviación sobre la cual se toman acciones correctivas o preventivas según el caso.',
+    },
+    {
+      termino: 'Mejora continua',
+      significado:
+        'ejecución constante de acciones que mejoran los procesos en una organización, minimizando al máximo el margen de error y de pérdidas.',
+    },
+    {
+      termino: 'Servicio al cliente',
+      significado:
+        'es aquel en el que se informa, resuelve cualquier duda, o se facilita información al cliente que lo requiere.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Mora, L. A. (2004). Indicadores de gestión logísticos. FESC.',
+    },
+    {
+      referencia:
+        'Normas-iso.com. (s. f.). ISO. Normas ISO 9001: Sistemas de gestión de la calidad.',
+      link: 'https://www.normas-iso.com/iso-9001/',
+    },
+    {
+      referencia: 'RAE. (2020). Definición de expectativa.',
+      link: 'https://dle.rae.es/expectativa?m=form',
+    },
+    {
+      referencia: 'RAE. (2020). Definición de percepción.',
+      link: 'https://dle.rae.es/percepci%C3%B3n',
+    },
+    {
+      referencia: 'RAE. (2020). Definición de política.',
+      link: 'https://dle.rae.es/pol%C3%ADtico',
+    },
+    {
+      referencia: 'Revista Zona Logística. (2017). La logística del servicio.',
+      link: 'https://zonalogistica.com/la-logistica-del-servicio/',
     },
   ],
   creditos: [
@@ -126,12 +223,12 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel de Jesús Paredes Maestre ',
-          cargo: 'Responsable de línea de producción',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de la línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -140,19 +237,27 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de la Industria, la empresa y los Servicios Regional - Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Alex García',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora metodológica',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
         },
       ],
     },
@@ -160,24 +265,72 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Alexander Rafael Acosta Bedoya',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          nombre: 'Álvaro Guillermo Araújo Angarita',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios Regional – Tolima',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional – Santander',
+        },
+        {
+          nombre: 'Laura Ximena Hurtado Villalba',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Mayerly Pérez Jaimes',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Pedro Nel Calao Zabala',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Laura Giselle Murcia Pardo',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
       ],
     },
@@ -196,12 +349,12 @@ export default {
         },
         {
           nombre: 'Jonathan Adié Villafañe',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
