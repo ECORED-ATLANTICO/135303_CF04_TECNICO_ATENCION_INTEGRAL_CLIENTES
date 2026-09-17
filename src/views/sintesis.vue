@@ -8,7 +8,7 @@
         figure
           img(src="@/assets/curso/img01.svg", data-aos="zoom-in")
       .col-lg-10
-        p.mb-3(data-aos="fade-right") En términos de gestión de requerimientos, los requisitos del proceso se refieren a uno de los cuatro tipos de requisitos del proyecto que se identifican así: determinar, recopilar, analizar y registrar. Estos, junto con los requisitos de negocio, producto y recursos, sirven de base para obtener, analizar, especificar y validar las necesidades y expectativas de las partes interesadas para una Atención integral del cliente.
+        p.mb-3(data-aos="fade-right") En términos de gestión de requerimientos, los requisitos del proceso se refieren a uno de los cuatro tipos de requisitos del proyecto que se identifican así: determinar, recopilar, analizar y registrar. Estos, junto con los requisitos de negocio, producto y recursos, sirven de base para obtener, analizar, especificar y validar las necesidades y expectativas de las partes interesadas para una atención integral del cliente.
         p.mb-0(data-aos="fade-right") La política de atención pluralista y diferencial está dirigida a poblaciones en condición de vulnerabilidad por razones económicas, sociales, étnicas, territoriales, de género y que son sujetas de especial protección por parte del Estado.
     
     .row.justify-content-center

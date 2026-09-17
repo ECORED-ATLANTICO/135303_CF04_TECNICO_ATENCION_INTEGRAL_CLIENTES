@@ -38,16 +38,12 @@
       .col-12.col-md-12.col-lg-10
         //- Figura
         .titulo-sexto.mb-4.color-acento-contenido
-          h5 
-            b Figura 4. 
-            span Los elementos de un indicador de gestión 
+          h5 Figura 4. 
+          span Los elementos de un indicador de gestión 
         figure.mb-4
           img(src='@/assets/curso/tema3/img03.svg', alt='Indica la figura: el índice, el alcance, la meta, el responsable, la forma de cálculo, unidad y la periocidad.').mx-auto.d-none.d-md-block.d-sm-none
           img(src='@/assets/curso/tema3/img04.svg', alt='Indica la figura: el índice, el alcance, la meta, el responsable, la forma de cálculo, unidad y la periocidad.').mx-auto.d-block.d-md-none.d-sm-block
 
-        figcaption 
-          b Nota. 
-          | SENA 2026.
 
     .row.justify-content-center.mb-4
       .col-md-12.col-lg-10.mb-5
@@ -187,41 +183,39 @@
 
       .col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 
-            b Tabla 3. 
-            | Indicadores de gestión para medir el nivel de servicio
+          h5 Tabla 3. 
+          span Indicadores de gestión para medir el nivel de servicio
         .tabla-a.color-acento-contenido
           table
-            caption Nota: SENA 2026.
             thead
               tr
                 th Indicadores
                 th Órdenes
             tbody
               tr
-                td <b>Órdenes completas.</b>
-                td Órdenes entregadas completas / Órdenes totales surtidas.
+                td <b>Órdenes completas</b>
+                td Órdenes entregadas completas / Órdenes totales surtidas
               tr
-                td <b>Órdenes a tiempo.</b>
-                td Órdenes entregadas a tiempo / Órdenes totales despachadas.
+                td <b>Órdenes a tiempo</b>
+                td Órdenes entregadas a tiempo / Órdenes totales despachadas
               tr
-                td <b>Órdenes en cantidad.</b>
-                td Unidades recibidas orden / Unidades entregadas orden.
+                td <b>Órdenes en cantidad</b>
+                td Unidades recibidas orden / Unidades entregadas orden
               tr
-                td <b>Precisión facturación.</b>
-                td Facturas aceptadas / Facturas generadas.
+                td <b>Precisión facturación</b>
+                td Facturas aceptadas / Facturas generadas
               tr
-                td <b>Ciclo de orden.</b>
-                td Sumatoria de fechas (recepción – fechas de solicitud).
+                td <b>Ciclo de orden</b>
+                td Sumatoria de fechas (recepción – fechas de solicitud)
               tr
-                td <b>Ordenes con devolución.</b>
-                td Órdenes devueltas / Órdenes totales generadas.
+                td <b>Ordenes con devolución</b>
+                td Órdenes devueltas / Órdenes totales generadas
               tr
-                td <b>Quejas de clientes.</b>
-                td Órdenes con quejas / Órdenes totales generadas.
+                td <b>Quejas de clientes</b>
+                td Órdenes con quejas / Órdenes totales generadas
               tr
-                td <b>Resolución de quejas de clientes.</b>
-                td Quejas con resolución a tiempo / Quejas recibidas.
+                td <b>Resolución de quejas de clientes</b>
+                td Quejas con resolución a tiempo / Quejas recibidas
 
     separador
     
@@ -266,15 +260,15 @@
 
           .tarjeta.bg-rojo.p-3.pos1(x="13.3%" y="16%" numero="")
             .h5.mb-2 Rojo
-            p Niveles graves del indicador. Señal de aplicar correctivos urgentes – Crítico.
+            p Niveles graves del indicador. Señal de aplicar correctivos urgentes – crítico.
 
           .tarjeta.bg-amarillo.p-3.pos1(x="13.3%" y="41.5%" numero="")
             .h5.mb-2 Amarillo
-            p Niveles preocupantes del indicador. Revisión de políticas – Aceptable.
+            p Niveles preocupantes del indicador. Revisión de políticas – aceptable.
 
           .tarjeta.bg-verde.p-3.pos3(x="13.3%" y="68%" numero="", style="")
             .h5.mb-2 Verde
-            p Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – Satisfactorio.
+            p Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – satisfactorio.
 
         //- figure.d-sm-block.d-lg-none
         //-   img(src='@/assets/curso/tema3/img02m.svg', alt='Semáforo que muestra estado: Rojo: Niveles graves del indicador. Señal de aplicar correctivos urgentes – Crítico. Amarillo: Niveles preocupantes del indicador. Revisión de políticas – Aceptable. Verde: Se ha alcanzado el estándar del indicador o se está muy cerca de hacerlo. Señal de cumplimiento – Satisfactorio.')
@@ -439,12 +433,10 @@
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-12
         .titulo-sexto.color-acento-contenido
-          h5 
-            b Tabla 4. 
-            span Servicio al cliente
+          h5 Tabla 4. 
+          span Servicio al cliente
         .tabla-a.color-acento-contenido
           table
-            caption Nota: SENA 2026.
             thead
               tr
                 th Indicador
@@ -453,7 +445,7 @@
                 th Impacto (comentarios)
             tbody
               tr
-                td Nivel de cumplimiento entrega a clientes.
+                td Nivel de cumplimiento entrega a clientes
                 td Consiste en calcular el porcentaje real de las entregas oportunas y efectivas a los clientes.
                 td 
                   .text-center
@@ -462,7 +454,7 @@
                     p.mt-2 Total de pedidos despachados.
                 td Sirve para controlar los errores que se presentan en la empresa y que no permiten entregar los pedidos a los clientes. Sin duda, esta situación impacta fuertemente al servicio al cliente y el recaudo de la cartera.
               tr
-                td Calidad de la facturación.
+                td Calidad de la facturación
                 td Número y porcentaje de facturas con error por cliente, y agregación de los mismos.
                 td 
                   .text-center
@@ -471,7 +463,7 @@
                     p.mt-2 Total de facturas emitidas.
                 td Generación de retrasos en los cobros e imagen de mal servicio al cliente, con la consiguiente pérdida de ventas.
               tr
-                td Causales de notas crédito.
+                td Causales de notas crédito
                 td Consiste en calcular el porcentaje real de las facturas con problemas.
                 td 
                    .text-center
@@ -480,7 +472,7 @@
                     p.mt-2 Total de facturas generadas.
                 td Sirve para controlar los errores que se presentan en la empresa por errores en la generación de la facturación de la empresa y que inciden negativamente en las finanzas y la reputación de la misma.
               tr
-                td Pendientes por facturar.
+                td Pendientes por facturar
                 td Consiste en calcular el número de pedidos no facturados dentro del total de facturas.
                 td 
                   .text-center
@@ -574,45 +566,45 @@
                 th Característica
             tbody
               tr
-                td Informes sobre oportunidad de atención.
-                td Informes sobre oportunidad de atención.
-                td Informes sobre oportunidad de atención.
-                td Informes sobre oportunidad de atención.
+                td Informes sobre oportunidad de atención
+                td Informes sobre oportunidad de atención
+                td Informes sobre oportunidad de atención
+                td Informes sobre oportunidad de atención
               tr
-                td Propuestas solicitadas por clientes.
-                td Semanal.
-                td Producción, ventas y dirección.
-                td De la semana y acumulado.
+                td Propuestas solicitadas por clientes
+                td Semanal
+                td Producción, ventas y dirección
+                td De la semana y acumulado
               tr
-                td Propuestas adjudicadas.
-                td Semanal.
-                td Producción, ventas y dirección.
-                td De la semana y acumulado.
+                td Propuestas adjudicadas
+                td Semanal
+                td Producción, ventas y dirección
+                td De la semana y acumulado
               tr
-                td Plazo despacho propuestas adjudicadas.
-                td Semanal.
-                td Producción, ventas y dirección.
-                td De la semana y acumulado.
+                td Plazo despacho propuestas adjudicadas
+                td Semanal
+                td Producción, ventas y dirección
+                td De la semana y acumulado
               tr
-                td Propuestas, pérdidas y causas.
-                td Semanal.
-                td Producción, ventas y dirección.
-                td De la semana y acumulado.
+                td Propuestas, pérdidas y causas
+                td Semanal
+                td Producción, ventas y dirección
+                td De la semana y acumulado
               tr
-                td Precios de ventas por clientes.
-                td Mensual.
-                td Producción, ventas y dirección.
-                td Comparativo mensual y anual.
+                td Precios de ventas por clientes
+                td Mensual
+                td Producción, ventas y dirección
+                td Comparativo mensual y anual
               tr
-                td Informes sobre colaboración con clientes.
-                td Informes sobre colaboración con clientes.
-                td Informes sobre colaboración con clientes.
-                td Informes sobre colaboración con clientes.
+                td Informes sobre colaboración con clientes
+                td Informes sobre colaboración con clientes
+                td Informes sobre colaboración con clientes
+                td Informes sobre colaboración con clientes
               tr
-                td Nivel de conectividad e información compartida.
-                td Mensual.
-                td Producción, ventas, contabilidad y dirección.
-                td Por cliente.
+                td Nivel de conectividad e información compartida
+                td Mensual
+                td Producción, ventas, contabilidad y dirección
+                td Por cliente
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10

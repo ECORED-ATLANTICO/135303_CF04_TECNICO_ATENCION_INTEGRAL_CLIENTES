@@ -130,7 +130,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/135333_CF04_DU.pdf',
+        download: 'downloads/135303_CF04_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -223,7 +223,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -266,7 +266,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñadora web',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
@@ -339,12 +339,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -354,7 +354,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

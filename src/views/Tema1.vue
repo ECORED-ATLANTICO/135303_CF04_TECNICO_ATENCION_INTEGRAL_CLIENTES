@@ -39,12 +39,16 @@
 
             p El siguiente video resume los aspectos más relevantes de la ley que rige los estatutos para la protección de datos personales, así como los decretos ya mencionados, que la reglamentan o modifican.
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Video 2.
+      span Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales.
+
     .row.justify-content-center.align-items-center
       .col-md-12.col-lg-12
         figure.mb-5(data-aos="fade-up")
           .video-mb-2
             iframe(width="100%" height="450" src="https://www.youtube.com/embed/7iX-RkAJOl4" title="Video: Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Ley estatutaria 1581 de 2012: disposiciones generales para la protección de datos personales.
+ 
  
     //- Subtitulo
     .align-items-center.justify-content-star.mb-2
@@ -278,7 +282,7 @@
               .col-12.col-md-10.col-lg-11
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    p.m-0 Apreciado aprendiz, para ampliar la información sobre este tema, en el material complementario encontrará el video, <b>"Legislación en protección de datos personales en Colombia"</b> o bien puede visualizarlo dando clic en el botón.
+                    p.m-0 Apreciado aprendiz, para ampliar la información sobre este tema, encontrará a continuación el video, "Legislación en protección de datos personales en Colombia". 
                   .col-sm-auto.p-lg-4.text-center
                     a.boton.bg-color-4.texto-blanco(href="https://www.youtube.com/watch?v=bvAH9ppBbbE" target="_blank")
                       span ver video
@@ -289,32 +293,30 @@
 
         .col-md-12.col-lg-10.mb-1
           .titulo-sexto.color-acento-contenido
-            h5 
-              b Tabla 1. 
-              | Normas relacionadas con atención al cliente
+            h5 Tabla 1. 
+            span Normas relacionadas con atención al cliente
           .tabla-a.color-acento-contenido
             table
-              caption Nota. SENA 2026.
               thead
                 tr
                   th Normas
                   th Bases PQR
               tbody
                 tr
-                  td <b>Artículo 23 de la Constitución Política de Colombia (1991).</b>
-                  td Concerniente a las peticiones que puede realizar cada ciudadano.
+                  td <b>Artículo 23 de la Constitución Política de Colombia (1991)</b>
+                  td Concerniente a las peticiones que puede realizar cada ciudadano
                 tr
-                  td <b>Ley 1755 de 2015.</b>
-                  td Por medio de la cual se regula el derecho fundamental de petición.
+                  td <b>Ley 1755 de 2015</b>
+                  td Por medio de la cual se regula el derecho fundamental de petición
                 tr
-                  td <b>Ley 1437 2011.</b>
-                  td Código de Procedimiento Administrativo y de lo Contencioso Administrativo.
+                  td <b>Ley 1437 2011</b>
+                  td Código de Procedimiento Administrativo y de lo Contencioso Administrativo
                 tr
-                  td <b>Ley 1474 de 2011.</b>
-                  td Actos de corrupción.
+                  td <b>Ley 1474 de 2011</b>
+                  td Actos de corrupción
                 tr
-                  td <b>Decreto 19 de 2012.</b>
-                  td Antitrámites.
+                  td <b>Decreto 19 de 2012</b>
+                  td Antitrámites
           
     separador
     
@@ -406,11 +408,15 @@
             p.mb-3 Un aspecto importante para el éxito de las organizaciones es asegurar que la gestión del proceso logístico esté adecuadamente alineada con la implementación de la dirección estratégica como requisito previo para obtener resultados en términos de valor añadido percibido por los clientes internos y externos como condición de eficiencia y competitividad.
             p.mb-0 A continuación, se verán los cinco principales componentes de gestión de la cadena de suministro.
 
+      
       .col-md-12.col-lg-12.mb-4
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Video 3.
+          span Componentes de gestión de la cadena de suministro.
         figure(data-aos="fade-up")
           .video-mb-2
             iframe(width="100%" height="450" src="https://www.youtube.com/embed/XBwcYat2pgY" title="Video: Componentes de gestión de la cadena de suministro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Componentes de gestión de la cadena de suministro.
+   
  
       .col-md-12.col-lg-10
         p En resumen, estos fueron los elementos de la gestión de la cadena de suministro que los líderes tienen en cuenta a la hora de tomar decisiones estratégicas. <b>Por lo tanto, cada componente de la gestión de la cadena de suministro es vital para tomar decisiones estratégicas</b>, ya sea en términos de diversificación de productos o vertical en una organización. Con la tendencia actual a la transformación digital, se han tomado muchas iniciativas digitales para la cadena de suministro, lo que puede ser utilizado por la empresa como una ventaja competitiva.
@@ -427,10 +433,13 @@
     //- video
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Video 4.
+          span Atención PQR Introducción.
         figure(data-aos="fade-up")
           .video-mb-2
             iframe(width="100%" height="450" src="https://www.youtube.com/embed/pk9eamtCI6A" title="Video: Atención PQR Introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Atención PQR Introducción.
+  
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0
@@ -596,17 +605,14 @@
     .row.justify-content-center.mb-5
       .col-12.col-md-12.col-lg-10
         //- Figura
-        .titulo-sexto.mb-4.color-acento-contenido
-          h5 
-            b Figura 1. 
-            span Ciclo básico de PQR.
+        .titulo-sexto.mb-3.color-acento-contenido
+          h5 Figura 1. 
+          span Ciclo básico de PQR
         figure.mb-4
           img(src='@/assets/curso/tema1/img52.svg', alt='En la figura se detalla el ciclo básico de las PQR así: el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-none.d-md-block.d-sm-none
           img(src='@/assets/curso/tema1/img53.svg', alt='En la figura se detalla el ciclo básico de las PQR así: el análisis, distribución, gestión, respuesta, seguimiento, indicadores, recepción.').mx-auto.d-block.d-md-none.d-sm-block
 
-        figcaption 
-          b Nota. 
-          | SENA 2026.
+ 
 
     .row.justify-content-center.mb-5
       .col-12.col-md-12.col-lg-10
