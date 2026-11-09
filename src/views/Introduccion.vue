@@ -8,8 +8,8 @@
           i.fas.fa-info
       h1 Introducción
     
-    p Bienvenido al componente Gestión de requerimientos e indicadores de gestión. Para comenzar este recorrido, se invita a explorar el recurso que se muestra a continuación:
-
+    p.mb-3 ¡Bienvenido al componente Gestión de requerimientos e indicadores de gestión! En esta introducción se presenta un acercamiento a los protocolos de servicio al cliente, su importancia en la atención de los usuarios y las pautas que orientan la gestión de sus necesidades y requerimientos.
+    p.mb-3 Este recurso permite reconocer los elementos fundamentales para brindar una atención oportuna y garantizar un servicio de calidad.
 
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Video 1.
@@ -17,8 +17,7 @@
 
     figure.mb-5
       .video-mb-2(data-aos="fade-up")
-        iframe(width="100%" height="450" src="https://www.youtube.com/embed/BZTgB0mNmaw" title="Video: Gestión de requerimientos e indicadores de gestión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-   
+        iframe(width="100%" height="560" src="https://www.youtube.com/embed/lvRg5NSUEIo?si=tt7B8aiU2lk6yxbi" title="Video: Gestión de requerimientos e indicadores de gestión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

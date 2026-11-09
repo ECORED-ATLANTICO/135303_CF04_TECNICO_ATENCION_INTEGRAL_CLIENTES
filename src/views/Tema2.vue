@@ -108,31 +108,31 @@
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img07.svg' alt='')
                 p.ms-5.mb-0 Eficiencia en los procesos u ocupaciones de la organización (mejora de costos).
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img08.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img08.svg' alt='')
                 p.ms-5.mb-0 Mejora importante en la satisfacción de los consumidores.
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img09.svg' alt='')
                 p.ms-5.mb-0 Herramienta de comunicación para optimización de la imagen de la organización.
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img10.svg' alt='')
                 p.ms-5.mb-0 Aumento del ingreso al mercado, sin parámetros de fronteras.
 
           .col-md-6.col-lg-6
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema2/img11.svg' alt='')
                 p.ms-5.mb-0 Incremento de la comunicación interna, satisfacción de los trabajadores.
 
       .col-md-12.col-lg-10
@@ -158,7 +158,7 @@
     separador
     
     .row.justify-content-center.align-items-center
-      .col-12.col-md-12.col-lg-10
+      .col-12.col-md-12.col-lg-12
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 2.2 Protocolo del sistema de calidad
 
@@ -184,7 +184,7 @@
               p.mb-0 Es un protocolo plasmado normalmente en un documento por el que una compañía que presta un servicio a otra se compromete a prestar el mismo bajo unas determinadas condiciones y con unas prestaciones mínimas o que se realiza entre los empleados de una empresa.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img15.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img15.svg', alt='', style="max-width: 200px;").mx-auto
 
 
           .row.justify-content-center.align-items-center.p-4
@@ -192,7 +192,7 @@
               p.mb-0 Un ANS tratará de mantener y garantizar la calidad de un servicio brindado a un cliente.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img16.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img16.svg', alt='', style="max-width: 200px;").mx-auto
 
 
           .row.justify-content-center.align-items-center.p-4
@@ -200,7 +200,7 @@
               p.mb-0 El Acuerdo de Nivel de Servicio es el mantenimiento de la disponibilidad de un determinado servicio basado en un compromiso del nivel de cumplimiento en su ejecución, que puede ser medido y demostrado.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img17.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img17.svg', alt='', style="max-width: 200px;").mx-auto
 
 
           .row.justify-content-center.align-items-center.p-4
@@ -208,7 +208,7 @@
               p.mb-0 En los ANS se pueden establecer tantos indicadores como se estimen necesarios y de su evaluación se obtienen, por ejemplo, penalizaciones a la empresa suministradora, identificación de puntos débiles del proceso e indicaciones para procesos de mejora continua en determinadas actividades.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/tema2/img18.svg', alt='Imagen de acompañamiento', style="max-width: 200px;").mx-auto
+                img(src='@/assets/curso/tema2/img18.svg', alt='', style="max-width: 200px;").mx-auto
         
     .row.justify-content-center.align-items-center.mb-5
       .col-md-12.col-lg-10.mb-1
@@ -219,7 +219,8 @@
           table
             thead
               tr
-                th(colspan="2") Normas y entidades de importancia para la implementación de los ANS
+                th Normas
+                th Implementación 
             tbody
               tr
                 td.text-left <b>ISO 9001</b>	

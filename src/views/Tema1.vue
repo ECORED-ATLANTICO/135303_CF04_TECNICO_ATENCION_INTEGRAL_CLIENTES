@@ -21,7 +21,7 @@
         .row.align-items-center
           .col-12.col-md-6.col-lg-4.mb-3
             figure
-              img(src='@/assets/curso/tema1/img02.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/img02.png', alt='')
           .col-12.col-md-6.col-lg-7
             p A continuación, se verá un poco más de las leyes que protegen el derecho a los datos personales, en su orden cronológico.
 
@@ -54,7 +54,7 @@
     .align-items-center.justify-content-star.mb-2
       .div(data-aos="fade-left")
         h3.subtitle.position-relative Pero… ¿Qué son los datos personales?
-          img.image(src='@/assets/curso/img0.svg', alt='Imagen decorativa')
+          img.image(src='@/assets/curso/img0.svg', alt='')
 
     p.mb-4 Los datos personales son información de un individuo, la cual se utiliza para identificarlo. Estos datos pueden estar almacenados en bases de datos, ya sean físicas o digitales. Dentro de los datos personales se maneja información como:
     
@@ -65,50 +65,50 @@
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Edad.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img04.svg' alt='')
+                  p.ms-5.mb-0 <b>Edad</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img05.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Nombre.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img05.svg' alt='')
+                  p.ms-5.mb-0 <b>Nombre</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img06.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Documento de identidad.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img06.svg' alt='')
+                  p.ms-5.mb-0 <b>Documento de identidad</b>
           
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img07.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Números telefónicos de contacto.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img07.svg' alt='')
+                  p.ms-5.mb-0 <b>Números telefónicos de contacto</b>
             
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Correo electrónico.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img08.svg' alt='')
+                  p.ms-5.mb-0 <b>Correo electrónico</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Número de seguridad social.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img09.svg' alt='')
+                  p.ms-5.mb-0 <b>Número de seguridad social</b>
 
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Dirección de domicilio.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img10.svg' alt='')
+                  p.ms-5.mb-0 <b>Dirección de domicilio</b>
           
             .col-md-6.col-lg-3
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
-                  p.ms-5.mb-0 <b>Entre otros.</b>
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img11.svg' alt='')
+                  p.ms-5.mb-0 <b>Entre otros</b>
       
       
       .row.justify-content-center.mb-4
@@ -123,31 +123,31 @@
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img12.svg' alt='')
                   p.ms-5.mb-0 Colaboradores.
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img13.svg' alt='AvatarTop')
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img13.svg' alt='')
                   p.ms-5.mb-0 Terceros que presten servicios a la empresa.
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img14.svg' alt='')
                   p.ms-5.mb-0 Contratistas.
 
             .col-md-6.col-lg-4
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img15.svg' alt='')
                   p.ms-5.mb-0 Operadores.
 
             .col-md-6.col-lg-8
               .tarjeta-container.mb-4.custom-mh
                 .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
+                  img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img16.svg' alt='')
                   p.ms-5.mb-0 Toda persona natural o jurídica que tenga acceso a la información para realizar las labores contratadas por la empresa.
 
     .row.justify-content-center.mb-5
@@ -159,7 +159,7 @@
         .align-items-center.justify-content-star
           .div(data-aos="fade-left")
             h3.subtitle.position-relative Categoría de datos
-              img.image(src='@/assets/curso/img0.svg', alt='Imagen decorativa')
+              img.image(src='@/assets/curso/img0.svg', alt='')
 
     .bg-fondo-5.tarjeta.mb-5
       .p-4.p-lg-5
@@ -171,7 +171,7 @@
               p.mb-0 El uso indebido de la información puede generar riesgos, incluso discriminación. La revelación de datos del titular, como pertenencia a organizaciones, sindicatos, agremiaciones, orientación política, datos relativos a la salud y datos biométricos, son datos de alta sensibilidad y se debe garantizar la protección de estos en pro de la garantía del bienestar de su propietario.
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src='@/assets/curso/tema1/img17.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema1/img17.png', alt='')
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
@@ -193,7 +193,7 @@
             
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/img18.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img18.png", alt="")
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
@@ -203,7 +203,7 @@
               
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/img19.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img19.png", alt="")
 
           .row.justify-content-center.align-items-center.p-4
             .col-lg-8.mb-4
@@ -219,7 +219,7 @@
                   
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/img20.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img20.png", alt="")
 
           .row.justify-content-center.align-items-center
             .col-lg-8.mb-4
@@ -229,7 +229,7 @@
               
             .col-lg-4.mb-3.mb-lg-0
               figure
-                img(src="@/assets/curso/tema1/img21.png", alt="Imagen")
+                img(src="@/assets/curso/tema1/img21.png", alt="")
 
     .row.justify-content-center.align-items-center
       p A continuación, se verán las razones y funciones de las leyes de protección de datos.
@@ -243,7 +243,7 @@
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img23.svg', alt='').d-none.d-lg-block.d-md-block
 
           .p-3.p-md-4(titulo="Derechos")
             .row.justify-content-center.align-items-center
@@ -252,7 +252,7 @@
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img24.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img24.svg', alt='').d-none.d-lg-block.d-md-block
 
           .p-3.p-md-4(titulo="Condiciones")
             .row.justify-content-center.align-items-center
@@ -261,7 +261,7 @@
 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img25.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img25.svg', alt='').d-none.d-lg-block.d-md-block
       
           .p-3.p-md-4(titulo="Autorización")
             .row.justify-content-center.align-items-center
@@ -270,7 +270,7 @@
                 
               .col-md-6.col-lg-2.mb-3.mb-lg-0
                 figure
-                  img(src='@/assets/curso/tema1/img26.svg', alt='Texto que describa la imagen').d-none.d-lg-block.d-md-block
+                  img(src='@/assets/curso/tema1/img26.svg', alt='').d-none.d-lg-block.d-md-block
 
       .row.justify-content-center.align-items-center.mb-5
         .col-md-12.col-lg-10
@@ -303,25 +303,25 @@
                   th Bases PQR
               tbody
                 tr
-                  td <b>Artículo 23 de la Constitución Política de Colombia (1991)</b>
-                  td Concerniente a las peticiones que puede realizar cada ciudadano
+                  td <b>Artículo 23 de la Constitución Política de Colombia (1991).</b>
+                  td Concerniente a las peticiones que puede realizar cada ciudadano.
                 tr
-                  td <b>Ley 1755 de 2015</b>
-                  td Por medio de la cual se regula el derecho fundamental de petición
+                  td <b>Ley 1755 de 2015.</b>
+                  td Por medio de la cual se regula el derecho fundamental de petición.
                 tr
-                  td <b>Ley 1437 2011</b>
-                  td Código de Procedimiento Administrativo y de lo Contencioso Administrativo
+                  td <b>Ley 1437 2011.</b>
+                  td Código de Procedimiento Administrativo y de lo Contencioso Administrativo.
                 tr
-                  td <b>Ley 1474 de 2011</b>
-                  td Actos de corrupción
+                  td <b>Ley 1474 de 2011.</b>
+                  td Actos de corrupción.
                 tr
-                  td <b>Decreto 19 de 2012</b>
-                  td Antitrámites
+                  td <b>Decreto 19 de 2012.</b>
+                  td Antitrámites.
           
     separador
     
     .row.justify-content-center.align-items-center
-      .col-12.col-md-12.col-lg-10
+      .col-12.col-md-12.col-lg-12
         #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.1 Clasificación y trazabilidad de requerimientos
 
@@ -424,7 +424,7 @@
     separador
 
     .row.justify-content-center.align-items-center.mb-2
-      .col-12.col-md-12.col-lg-10
+      .col-12.col-md-12.col-lg-12
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.2 Notificación de recepción
 
@@ -457,7 +457,7 @@
             .row.bgr_7.align-items-center
               .col-12.col-lg-5.mb-3.mb-lg-0
                 figure
-                  img.posit_3(src='@/assets/curso/tema1/img35.svg', alt='Texto que describa la imagen')
+                  img.posit_3(src='@/assets/curso/tema1/img35.svg', alt='')
               .col-12.col-lg-6
                 p Al igual una petición, queja o reclamo, la respuesta debe ser clara y <b>emitirse dentro de los tiempos estipulados por la ley</b>, en caso de no ser posible cumplir los tiempos se debe informar al peticionario, informando los tiempos de respuesta y causales de la mora.
         .row.justify-center
@@ -465,7 +465,7 @@
             p La notificación o respuestas, según lo previsto en la Ley 1480 del 2011 (Estatuto del Consumidor) y en el Decreto 1074 del 2015, <b>deberá proporcionarse durante los 15 días hábiles siguientes a la recepción de la reclamación</b>, deben ser escritas ya sea en carta o email certificado y describir las causas por las cuales se dictamina en tal sentido y con las pruebas que sean soporte de sustento para la misma.
           .col-12.col-lg-2
             figure
-              img.img130.posit_4(src='@/assets/curso/tema1/img36.svg', alt='Texto que describa la imagen')
+              img.img130.posit_4(src='@/assets/curso/tema1/img36.svg', alt='')
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
@@ -521,7 +521,7 @@
     separador
     
     .row.justify-content-center.align-items-center
-      .col-12.col-md-12.col-lg-10
+      .col-12.col-md-12.col-lg-12
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 1.3 Trámite a requerimientos
 
@@ -571,25 +571,25 @@
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img48.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img48.svg' alt='')
                     p.ms-5.mb-0 <b>Confianza</b>
 
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img49.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img49.svg' alt='')
                     p.ms-5.mb-0 <b>Integralidad</b>
               
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img50.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img50.svg' alt='')
                     p.ms-5.mb-0 <b>Puntualidad</b>
               
               .col-md-6.col-lg-6
                 .tarjeta-container.mb-4.custom-mh
                   .position-relative.bg-color-3.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img51.svg' alt='AvatarTop')
+                    img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/img51.svg' alt='')
                     p.ms-5.mb-0 <b>Trazabilidad</b>
 
           .col-lg-5.mb-3.mb-lg-0
@@ -625,7 +625,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img47.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los PQR se deben solucionar o responder siguiendo los principios, <b>términos y métodos dispuestos en el Código Contencioso Administrativo</b> y su incumplimiento dará sitio a la imposición de las sanciones previstas en el mismo.
+            p.mb-0 Los PQR se deben solucionar o responder siguiendo los principios, <b>términos y métodos dispuestos en el Código Contencioso Administrativo</b> y su incumplimiento dará lugar a la imposición de las sanciones previstas en el mismo.
 
 </template>
 

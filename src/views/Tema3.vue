@@ -54,43 +54,43 @@
           .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img05.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img05.svg' alt='')
                 p.ms-5.mb-0 <b>Efectividad</b>
          
           .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img06.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img06.svg' alt='')
                 p.ms-5.mb-0 <b>Eficiencia</b>
                 
           .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img07.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img07.svg' alt='')
                 p.ms-5.mb-0 <b>Eficacia</b>
                 
           .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img08.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img08.svg' alt='')
                 p.ms-5.mb-0 <b>Productividad</b>
           
           .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img09.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img09.svg' alt='')
                 p.ms-5.mb-0 <b>Calidad</b>
          
           .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img10.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img10.svg' alt='')
                 p.ms-5.mb-0 <b>Ejecución presupuestal</b>
          
           .col-md-4.col-lg-4.col-xl-3
             .tarjeta-container.mb-4.custom-mh
               .position-relative.bg-color-2.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
-                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img11.svg' alt='AvatarTop')
+                img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema3/img11.svg' alt='')
                 p.ms-5.mb-0 <b>Incidencia de la gestión</b>
 
     .bg-full-width.bg-fondo-tema-2
@@ -220,7 +220,7 @@
     separador
     
     .row.justify-content-center.align-items-center
-      .col-md-12.col-lg-10
+      .col-md-12.col-lg-12
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 3.1 Interpretación de los KPI
 
@@ -255,7 +255,7 @@
         ImagenInfografica.color-primario.d-block.d-lg-block
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema3/img.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/img.svg', alt='')
               //- figcaption Leyenda de la imagen
 
           .tarjeta.bg-rojo.p-3.pos1(x="13.3%" y="16%" numero="")
@@ -279,7 +279,7 @@
         .align-items-center.justify-content-star.mb-2
           .div(data-aos="fade-left")
             h3.subtitle.position-relative Interpretación de indicadores de gestión (KPI)
-              img.image(src='@/assets/curso/img0.svg', alt='Imagen decorativa')
+              img.image(src='@/assets/curso/img0.svg', alt='')
 
     .row.justify-content-center.align-items-center.mb-4()
       .col-md-12.col-lg-10
@@ -318,7 +318,7 @@
     separador
     
     .row.justify-content-center.align-items-center
-      .col-md-12.col-lg-10
+      .col-md-12.col-lg-12
         #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 3.2 Aplicabilidad de los KPI
 
@@ -535,7 +535,7 @@
     separador
 
     .row.justify-content-center.align-items-center
-      .col-md-12.col-lg-10
+      .col-md-12.col-lg-12
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 3.3 Reporte de los KPI
 
