@@ -13,12 +13,11 @@
 
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Video 1.
-      span Protocolos de servicio al cliente introducción
+      span Gestión de requerimientos e indicadores de gestión
 
     figure.mb-5
       .video-mb-2(data-aos="fade-up")
-        iframe(width="100%" height="560" src="https://www.youtube.com/embed/lvRg5NSUEIo?si=tt7B8aiU2lk6yxbi" title="Video: Gestión de requerimientos e indicadores de gestión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        iframe(width="100%" height="560" src="https://www.youtube.com/embed/lvRg5NSUEIo?si=TgBF1P11cV6bE96O" title="Video: Gestión de requerimientos e indicadores de gestión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
